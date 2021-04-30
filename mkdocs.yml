@@ -1,0 +1,52 @@
+site_name: JSSC
+site_description: 科学部
+site_author: Sakai
+site_url: https://jishukan-science-club.github.io/JSSC
+repo_name: jishukan-science-club/JSSC
+repo_url: https://github.com/jishukan-science-club/JSSC
+# google_analytics: 自修館中等教育学校
+
+theme:
+    name: material
+    palette:
+        scheme: preference
+        primary: indigo
+        accent: amber
+    font:
+        text: Noto Sans
+    language: ja
+    # logo: img/
+    # favicon: img/
+    icon:
+        repo: fontawesome/brands/github
+    features:
+        - navigation.instant
+
+markdown_extensions:
+    - toc:
+        permalink: true
+    - admonition
+    - pymdownx.details
+    - pymdownx.superfences
+    - pymdownx.highlight
+    - pymdownx.inlinehilite
+    - pymdownx.tabbed
+    - footnotes
+    - pymdownx.emoji:
+        emoji_index: !!python/name:materialx.emoji.twemoji
+        emoji_generator: !!python/name:materialx.emoji.to_svg
+    - pymdownx.arithmatex:
+        generic: true
+    - meta
+
+nav:
+    - ホーム: index.md
+    # - ・紹介:
+    #   - 部活紹介: club.md
+    #   - 学校紹介: school.md
+    # - 。実験集:
+    #   - 中和滴定: neut.md
+    # - 。用具集:
+    #   - 器具集: equip.md
+    #   - 薬品集: chemi.md
+
