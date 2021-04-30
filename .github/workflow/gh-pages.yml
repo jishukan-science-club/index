@@ -1,38 +1,29 @@
-name: github pages
+name: MkDocs
 
 on:
   push:
     branches:
-      - main
+      - master
+    paths:
+      - mkdocs.yml
+      - docs/**
 
 jobs:
   deploy:
-    runs-on: ubuntu-18.04
+    runs-on: ubuntu-latest
+
     steps:
-      - uses: actions/checkout@v2
+      - name: Checkout the repository
+        uses: actions/checkout@v2
 
-      - name: Setup Python
-        uses: actions/setup-python@v2
-        with:
-          python-version: '3.8'
-
-      - name: Cache dependencies
-        uses: actions/cache@v2
-        with:
-          path: ~/.cache/pip
-          key: ${{ runner.os }}-pip-${{ hashFiles('**/requirements.txt') }}
-          restore-keys: |
-            ${{ runner.os }}-pip-
-
-      - name: Install dependencies
+      - name: Configure Git
         run: |
-          python3 -m pip install --upgrade pip
-          python3 -m pip install -r ./requirements.txt
-
-      - run: mkdocs build
-
-      - name: Deploy
-        uses: peaceiris/actions-gh-pages@v3
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./site
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          git fetch origin gh-pages
+      - name: Install MkDocs
+        run: |
+          python3 -m pip install setuptools
+          python3 -m pip install -r requirements.txt
+      - name: Deploy HTML files
+        run: python3 -m mkdocs gh-deploy
