@@ -42,7 +42,7 @@ markdown_extensions:
 nav:
     - ホーム: index.md
     - ・紹介:
-       - 部活紹介: club.md
+      - 部活紹介: club.md
       - 学校紹介: school.md
     - 。実験集:
       - 中和滴定: neut.md
