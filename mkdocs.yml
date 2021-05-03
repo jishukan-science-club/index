@@ -41,12 +41,13 @@ markdown_extensions:
 
 nav:
     - ホーム: index.md
-    - ・紹介:
-      - 部活紹介: club.md
-      - 学校紹介: school.md
-    - ・実験集:
-      - 中和滴定: neut.md
-    - ・用具集:
-      - 器具集: equip.md
-      - 薬品集: chemi.md
+    - 紹介:
+        - 部活紹介: club.md
+        - 学校紹介: school.md
+    - 用具集:
+        - 器具集: equip.md
+        - 薬品集: chemi.md
+    - 実験集:
+        - lab.md
+        - 中和滴定: neut.md
 
