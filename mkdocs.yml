@@ -48,6 +48,6 @@ nav:
         - 器具集: equip.md
         - 薬品集: chemi.md
     - 実験集:
-        - lab.md
-        - 中和滴定: neut.md
+        - /lab/index.md
+        - 中和滴定: /lab/neut.md
 
