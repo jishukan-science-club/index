@@ -50,4 +50,5 @@ nav:
     - 実験集:
         - lab/index.md
         - 中和滴定: lab/neut.md
+        - 酸化還元反応: lab/redox.md
 
