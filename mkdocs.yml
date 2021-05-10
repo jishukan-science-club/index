@@ -41,9 +41,7 @@ markdown_extensions:
 
 nav:
     - ホーム: index.md
-    - 紹介:
-        - 部活紹介: club.md
-        - 学校紹介: school.md
+    - 部活紹介: club.md
     - 用具集:
         - 器具集: equip.md
         - 薬品集: chemi.md
