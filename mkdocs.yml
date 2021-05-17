@@ -1,9 +1,9 @@
 site_name: JSSC
 site_description: 科学部
 site_author: Sakai
-site_url: https://jishukan-science-club.github.io/JSSC
-repo_name: jishukan-science-club/JSSC
-repo_url: https://github.com/jishukan-science-club/JSSC
+site_url: https://jishukan-science-club.github.io
+repo_name: jishukan-science-club
+repo_url: https://github.com/jishukan-science-club/jishukan-science-club.github.io
 # google_analytics: 自修館中等教育学校
 
 theme:
