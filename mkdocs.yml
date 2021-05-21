@@ -20,7 +20,9 @@ theme:
     icon:
         repo: fontawesome/brands/github
     features:
-        - navigation.instant
+        - navigation.indexes
+        - navigation.tabs
+        - navigation.tabs.sticky
 
 markdown_extensions:
     - toc:

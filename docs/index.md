@@ -16,5 +16,5 @@
         - [酸化還元反応](/lab/redox/ "色が変わるやつ")
         - [可燃性気体燃焼実験](/lab/hyex/ "水素燃やすだけ")
 
-!!! help "tankyu"
+!!! help "探究文化発表会・自修祭"
     - [文化祭特設ページ](https://jishukan-science-club.github.io/tankyu/ "探究文化発表会・自修祭")
