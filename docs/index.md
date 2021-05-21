@@ -17,4 +17,4 @@
         - [可燃性気体燃焼実験](/lab/hyex/ "水素燃やすだけ")
 
 !!! help "tankyu"
-    - [tankyu][/tankyu/]
+    - [文化祭特設ページ][https://jishukan-science-club.github.io/tankyu/ "探究文化発表会・自修祭"]
