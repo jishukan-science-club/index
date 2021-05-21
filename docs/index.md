@@ -15,3 +15,6 @@
         - [中和滴定](/lab/neut/ "高校範囲だよ～w")
         - [酸化還元反応](/lab/redox/ "色が変わるやつ")
         - [可燃性気体燃焼実験](/lab/hyex/ "水素燃やすだけ")
+
+!!! help "tankyu"
+    - [tankyu][/tankyu/]
