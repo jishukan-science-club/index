@@ -1,6 +1,6 @@
 # 主要器具集
 
-## ＜未設定＞  
+## キップの装置  
 <img src="../media/CIMG0085.JPG" width="50%" alt="＜未設定＞">
 <br>
 <br>
@@ -12,11 +12,11 @@
 <img src="../media/CIMG0093.JPG" width="50%" alt="メスシリンダー">
 <br>
 <br>
-## ＜未設定＞  
+## 薬品保存瓶  
 <img src="../media/CIMG0095.JPG" width="50%" alt="＜未設定＞">
 <br>
 <br>
-## ＜未設定＞  
+## 結晶格子  
 <img src="../media/CIMG0096.JPG" width="50%" alt="＜未設定＞">
 <br>
 <br>
